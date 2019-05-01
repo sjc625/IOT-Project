@@ -7,6 +7,9 @@ bluetooth streams, at least not without heavy modification.
 
 The solution was to use the onboard bluetooth and connect speakers via the audio jack.
 
+Link to slideshow:
+https://docs.google.com/presentation/d/1We8Kkka198JY1uNB_UCtpetBcNZHRT4wdZDhmuxaNaw/edit?usp=sharing
+
 Compatibility - Raspbian (as of 5/1/19)
 In order to get the system started-
 
