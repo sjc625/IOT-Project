@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Volup
+Comment=launches up 10%
+Path=/home/pi/IOT-Project/
+Exec=/home/pi/IOT-Project/volup
+Icon=/usr/share/pixmaps/openbox.png
+Terminal=true
+Type=Application;

@@ -1,0 +1,13 @@
+#!/bin/bash
+
+source ~/IOT-Project/vol.txt
+vol=$var
+file=~/IOT-Project/vol.txt
+declare -i vol
+echo $var
+echo $(($var + 10))
+if [[ "$var" != "100" ]] 
+then
+sed -i "s/var=.*/var="$(($vol+10))"/g" "$file"
+fi
+sudo amixer sset PCM,0 $(($var+10))%
